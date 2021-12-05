@@ -1,0 +1,100 @@
+:root {
+  --main-color: #8c1247;
+  -c-red: #bb532e;
+  -c-blue: #4c9feb;
+
+  -c-gray-1: #eee;
+  -c-gray-2: #ccc;
+  -c-gray-3: #555;
+}
+.mainbody {
+  background: linear-gradient(to bottom, var(--main-color) 50%, white 0%);
+  height: 100vh;
+}
+.white-bg {
+  background: #ffffff !important;
+}
+.main-color {
+  color: var(--main-color);
+}
+.container {
+  /* top:calc() */
+}
+
+.thin {
+  font-weight: 200;
+}
+.light {
+  font-weight: 300;
+}
+.regular {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 600;
+}
+.extraBold {
+  font-weight: 700;
+}
+.black {
+  font-weight: 800;
+}
+.extraBlack {
+  font-weight: 900;
+}
+.w100 {
+  font-weight: 100;
+}
+
+.w200 {
+  font-weight: 200;
+}
+
+.w300 {
+  font-weight: 300;
+}
+
+.w400 {
+  font-weight: 400;
+}
+
+.w500 {
+  font-weight: 500;
+}
+
+.w600 {
+  font-weight: 600;
+}
+
+.w700 {
+  font-weight: 700;
+}
+
+.w800 {
+  font-weight: 800;
+}
+
+.w900 {
+  font-weight: 900;
+}
+
+@media (min-width: 544px) {
+  h1 {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  /* h1 {font-size:2rem;} 1rem = 16px */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* h1 {font-size:2.5rem;} 1rem = 16px */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* h1 {font-size:3rem;} 1rem = 16px     */
+}
