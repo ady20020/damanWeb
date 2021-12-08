@@ -1,5 +1,6 @@
 :root {
   --main-color: #8c1247;
+  --main-color-dark: ##810040;
   -c-red: #bb532e;
   -c-blue: #4c9feb;
 
@@ -7,9 +8,10 @@
   -c-gray-2: #ccc;
   -c-gray-3: #555;
 }
-.mainbody {
+.parentBody {
   background: linear-gradient(to bottom, var(--main-color) 50%, white 0%);
   height: 100vh;
+  padding: 5%;
 }
 .white-bg {
   background: #ffffff !important;
@@ -76,6 +78,10 @@
 
 .w900 {
   font-weight: 900;
+}
+
+.p5 {
+  padding: 5%;
 }
 
 @media (min-width: 544px) {

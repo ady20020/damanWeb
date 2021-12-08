@@ -9,6 +9,8 @@ import { Analysis } from "../analysis";
 import { LoginPage } from "../LoginPage";
 import { HomePage } from "../HomePage";
 import { RegisterPage } from "../RegisterPage";
+import { FilterPage } from "../FilterPage";
+import { SelectedFilter } from "../SelectedFilter";
 import "./app.css";
 
 const App = (props) => {
@@ -30,7 +32,7 @@ const App = (props) => {
 
   const { alert } = props;
   return (
-    <div className="jumbotron mainbody">
+    <>
       {/* <div className="col-sm-8 col-sm-offset-2"> */}
       {alert.message && <div className={`alert ${alert.type}`}>{alert.message}</div>}
       <Router history={history}>
@@ -39,10 +41,12 @@ const App = (props) => {
           <Route path="/login" component={LoginPage} />
           <Route path="/analysis" component={Analysis} />
           <Route path="/register" component={RegisterPage} />
+          <Route path="/filter" component={FilterPage} />
+          <Route path="/selectedFilter" component={SelectedFilter} />
           {/* <Redirect from="*" to="/" /> */}
         </Switch>
       </Router>
-    </div>
+    </>
     // </div>
   );
 };

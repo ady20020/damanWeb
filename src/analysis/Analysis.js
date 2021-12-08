@@ -75,22 +75,24 @@ const Analysis = (props) => {
     },
   ];
   return (
-    <Grid container justifyContent="center" direction="column" item md={8} className={classes.root}>
-      {/* <div className=" white-bg mt-4"> */}
-      <h2 className="main-color display-3">welcome</h2>
-      <p className="lead">Please choose the type of analysis</p>
-      <Grid container item xs={6} md={12} spacing={2} style={{ display: "flex", justifyContent: "flex-start" }} className="mt-3">
-        {cardsData.map((current, i) => (
-          <Grid item xs={6} md={4} key={i}>
-            <CardActionsAreaExample data={current} />
-          </Grid>
-        ))}
+    <div className="parentBody">
+      <Grid container justifyContent="center" direction="column" item md={8} className={classes.root}>
+        {/* <div className=" white-bg mt-4"> */}
+        <h2 className="main-color display-3">welcome</h2>
+        <p className="lead">Please choose the type of analysis</p>
+        <Grid container item xs={6} md={12} spacing={2} style={{ display: "flex", justifyContent: "flex-start" }} className="mt-3">
+          {cardsData.map((current, i) => (
+            <Grid item xs={6} md={4} key={i}>
+              <CardActionsAreaExample data={current} />
+            </Grid>
+          ))}
+        </Grid>
+        <p className="mt-4">
+          <Link to="/login">Logout</Link>
+        </p>
+        {/* </div> */}
       </Grid>
-      <p className="mt-4">
-        <Link to="/login">Logout</Link>
-      </p>
-      {/* </div> */}
-    </Grid>
+    </div>
   );
 };
 

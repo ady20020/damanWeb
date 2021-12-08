@@ -1,0 +1,43 @@
+.header {
+  background-color: #810340;
+  padding: 5px;
+  color: #fff;
+}
+.filterBox {
+  background-color: #99294f;
+  padding: 5px;
+  min-height: 200px;
+  color: #fff;
+}
+.filterRow {
+  margin-bottom: 10px;
+}
+.mainContent {
+  margin: 40px 0;
+}
+.sideBtn {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 0;
+}
+.sideBtn.active {
+  color: #fff;
+  background-color: #810340;
+}
+.chartBox {
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+}
+select#filterSelect {
+  color: #fff;
+}
+.MuiInput-root svg {
+  color: #fff;
+}
+.MuiNativeSelect-root:after,
+.MuiNativeSelect-root:before {
+  border-color: #fff !important;
+}
+.MuiSlider-root {
+  color: #fff !important;
+}
