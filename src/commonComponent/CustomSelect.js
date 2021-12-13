@@ -29,7 +29,7 @@ import {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "4%",
+    // padding: "4%",
     width: "20%",
     margin: "8px 20px 8px 0 !important",
     // boxShadow: "0 3px 10px rgb(0 0 0 / 20%)",
@@ -59,4 +59,4 @@ const CustomSelect = (props) => {
   );
 };
 
-export default CustomSelect;
+export { CustomSelect };

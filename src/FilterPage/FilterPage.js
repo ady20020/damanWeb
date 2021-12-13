@@ -29,7 +29,7 @@ import {
 } from "@mui/material";
 
 import { userActions } from "../_actions";
-import CustomSelect from "../common/CustomSelect";
+import { CustomSelect } from "../commonComponent/CustomSelect";
 // import CardActionsAreaExample from "./CardActionsAreaExample";
 
 const useStyles = makeStyles((theme) => ({
@@ -37,10 +37,6 @@ const useStyles = makeStyles((theme) => ({
     background: "#ffffff !important",
     margin: "auto",
     padding: "4%",
-    // boxShadow: "0 3px 10px rgb(0 0 0 / 20%)",
-    // "& > *": {
-    //   margin: theme.spacing(1),
-    // },
   },
   formControl: {
     margin: theme.spacing(1),
@@ -49,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   button: {
     backgroundColor: "#810040 !important",
     padding: "10px 45px !important",
-    ":disabled": {
+    "&:disabled": {
       backgroundColor: theme.palette.primary || "red",
     },
   },

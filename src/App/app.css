@@ -17,7 +17,7 @@
   background: #ffffff !important;
 }
 .main-color {
-  color: var(--main-color);
+  color: var(--main-color) !important;
 }
 .container {
   /* top:calc() */
