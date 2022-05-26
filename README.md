@@ -1,2 +1,1 @@
-# testGitCommand
-daman web project
+dummy web project
